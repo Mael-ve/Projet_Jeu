@@ -15,10 +15,10 @@ fn print_map(map : [[bool; HEIGHT] ; WIDTH], ctx : &mut BTerm){
     for x in 0..WIDTH{
         for y in 0..HEIGHT{
             if map[x][y]{
-                ctx.set(x, y, (0, 0, 0), (0, 0, 255), 0);
+                ctx.set(x, y, (0, 0, 0), (153, 81, 43), 0);
             }
             else{
-                ctx.set(x, y, (0, 0, 0), (255, 0, 0), 0);
+                ctx.set(x, y, (0, 0, 0), (88, 41, 0), 0);
             }
         }
     }
